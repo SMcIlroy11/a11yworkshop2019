@@ -1,0 +1,40 @@
+<!--Add in the missing HTML components on the page (3: language, title-->
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>A11y Demos</h1>
+
+        <h2>Links</h2>
+        <h3>Good Example: Link text with an anchor tag</h3>
+        <p><a href="https://www.cnn.com">CNN Home</a></p>
+        <p><a href="https://www.cnn.com/world">CNN World</a></p>
+
+        <h3>Good Example: Using aria-lable to override native link tab</h3>
+        <p>
+            The National Museum of African American History and Culture
+            was established in 2003 by an Act of Congress, making it the
+            19th Smithsonian Institution museum.
+            <a href="https://www.si.edu/Museums/african-american-history-and-culture-museum" aria-label="Read more about the National Museum of
+              African American History and Culture">
+                Read more...
+            </a>
+        </p>
+
+        <h2>Buttons</h2>
+        <div class="info-button">More Info</div>
+        <div class="checkbox">Option 1</div>
+        <div class="checkbox">Option 2</div>
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="/reload/reload.js"></script>
+</body>
+
+</html>

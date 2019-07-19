@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>ARIA Practice 1</title>
+</head>
+
+<body>
+
+    <section class="accordion-section">
+        <div class="accordion" role="presentation">
+            <div class="js-accordion__panel">
+                <h3 class="accordion__heading">
+                    <button class="accordion__trigger" aria-controls="accordion__content_1" aria-expanded="false"
+                        tabindex="0" id="accordion__title_1" aria-selected="false">I’m tall when I’m young and I’m short
+                        when I’m old. What am I?
+                    </button>
+                </h3>
+                <div class="accordion__content" id="accordion__content_1" role="region" aria-hidden="true"
+                    aria-labelledby="accordion__title_1">
+                    <p>A candle</p>
+                </div>
+            </div>
+            <div class="js-accordion__panel">
+                <h3 class="accordion__heading">
+                    <button class="accordion__trigger" aria-controls="accordion__content_2" aria-expanded="false"
+                        tabindex="0" id="accordion__title_2" aria-selected="false">Which weighs more, a pound of
+                        feathers or
+                        a pound of bricks?
+                    </button>
+                </h3>
+                <div class="accordion__content" id="accordion__content_2" role="region" aria-hidden="true"
+                    aria-labelledby="accordion__title_2">
+                    <p>Neither, they both weigh one pound.</p>
+                </div>
+            </div>
+            <div class="js-accordion__panel">
+                <h3 class="accordion__heading">
+                    <button class="accordion__trigger" aria-controls="accordion__content_3" aria-expanded="true"
+                        tabindex="0" id="accordion__title_3" aria-selected="false">The more you take, the more you leave
+                        behind. What are they?
+                    </button>
+                </h3>
+                <div class="accordion__content" id="accordion__content_3" role="region" aria-hidden="true"
+                    aria-labelledby="accordion__title_3">
+                    <p>Footprints.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+    <script src="/reload/reload.js"></script>
+</body>
+
+</html>

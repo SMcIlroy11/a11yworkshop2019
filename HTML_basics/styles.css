@@ -1,0 +1,38 @@
+/* body {
+    color: blue;
+} */
+
+h1 {
+    margin: 20px 0 10px 5px;
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    align-self: center;
+    border-radius: 10px;
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(247, 241, 241);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.section {
+    display: flex;
+    padding: 15px;
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+    flex-direction: column;
+    width: 30%;
+    border: 2px solid magenta;
+}
+
+.link {
+    outline: none;
+    color: blue;
+    margin-left: 5px; 
+    cursor: pointer;
+}

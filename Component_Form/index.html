@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+
+    <h1>Accessible Forms</h1>>
+    <section>
+        <h3>Using ARIA to group options</h3>
+        <div role="group" aria-labelledby="beatle_head" class="aria-group">
+            <h4 id="beatle_head" class="bold">Who is the best Beatle?</h4>
+            <div class="checkbox row">
+                <input id="beatle_john" type="checkbox" name="beatle" value="beatle_john" />
+                <label for="beatle_john">John Lennon</label>
+                <input id="beatle_paul" type="checkbox" name="beatle" value="beatle_paul" />
+                <label for="beatle_paul">Paul McCartney</label>
+                <input id="beatle_george" type="checkbox" name="beatle" value="beatle_george" />
+                <label for="beatle_george">George Harrison</label>
+                <input id="beatle_ringo" type="checkbox" name="beatle" value="beatle_ringo" />
+                <label for="beatle_ringo">Ringo Starr</label>
+            </div>
+        </div>
+
+        <!-- Create a form with at least 3 checkboxes or radio buttons using HTML5 -->
+        <h3>Using HTML5 to group options</h3>
+
+    </section>
+
+    <script type="text/javascript" src="index.js"></script>
+    <script src="/reload/reload.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.info-button {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: magenta;
+    margin: 5px;
+    padding: 5px;
+    width: 70px;
+    cursor: pointer;
+}

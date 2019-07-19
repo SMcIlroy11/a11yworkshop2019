@@ -1,0 +1,23 @@
+body {
+    background-color: gray;
+}
+
+.css-demo-paragraph {
+    color: magenta;
+    width: 350px;
+}
+
+header {
+    background: aqua;
+}
+
+@media print {
+  .header {
+    position: static;
+  }
+  nav {
+    display: none;
+  }
+   /* a[href^="http"]:not([href*="mywebsite.com"])::after {
+    content: " (" attr(href) ")"; */
+}
