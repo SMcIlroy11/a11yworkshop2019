@@ -10,11 +10,13 @@
 </head>
 
 <body>
-    <h1>ARIA-Practice</h1>
+    <h1>ARIA Examples</h1>
+    <h2>Checkbox</h2>
     <span role="checkbox" id="chkPref" aria-checked="false" onclick="changeCheckbox()" onKeyPress="changeCheckbox()"
         tabindex="0" aria-labelledby="chk1-label"></span>
     <label id="chk1-label" onclick="changeCheckbox()" onKeyPress="changeCheckbox()">Remember my preferences</label>
 
+    <h2>Tabs</h2>
     <div class="tabs">
         <div role="tablist" aria-label="Sample Tabs">
             <button role="tab" aria-selected="true" aria-controls="panel-1" id="tab-1" tabindex="0">
